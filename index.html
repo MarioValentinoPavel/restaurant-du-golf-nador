@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Restaurant du Golf · Le 19e trou d’Atalayoun, Nador</title>
+<meta name="description" content="Restaurant du Golf (Norsal), Atalayoun, Nador : poissons frais, fruits de mer, paella et coin italien, face à la lagune de Marchica et au golf. Lun-sam 12 h 30-23 h, dim 12 h-23 h. +212 654 50 87 69.">
+<meta name="theme-color" content="#f6f7fb">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%231f3f99'/%3E%3Cpath d='M26 14v38' stroke='%23fff' stroke-width='3'/%3E%3Cpath d='M26 14l18 7-18 7z' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&family=Gantari:wght@300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="tee" id="tee" aria-hidden="true">
+  <span class="tee__line"></span>
+  <span class="tee__hole"></span>
+  <span class="tee__flag"><i></i></span>
+  <span class="tee__ball"></span>
+  <p class="tee__num">19</p>
+</div>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#top"><span class="brand__mark" aria-hidden="true">19</span><span>Restaurant du Golf</span></a>
+  <nav class="nav__links" aria-label="Principal">
+    <a href="#vue" data-i18n="nav.view">La vue</a>
+    <a href="#mer" data-i18n="nav.sea">La mer</a>
+    <a href="#carte" data-i18n="nav.card">La carte</a>
+    <a href="#putt" data-i18n="nav.putt">Le putt</a>
+    <a href="#venir" data-i18n="nav.visit">Venir</a>
+  </nav>
+  <div class="lang" role="group" aria-label="Langue">
+    <button type="button" data-lang="fr" aria-pressed="true">FR</button>
+    <button type="button" data-lang="es" aria-pressed="false">ES</button>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="hero__copy">
+      <p class="hero__big" aria-hidden="true">19</p>
+      <h1 class="hero__title" data-i18n="hero.title">Le dix-neuvième trou d’Atalayoun.</h1>
+      <p class="hero__sub" data-i18n="hero.sub">Après le golf, ou sans y avoir joué : le meilleur de la mer, face à la lagune de Marchica, aux greens et aux montagnes.</p>
+      <div class="hero__cta">
+        <a class="btn btn--cobalt" href="tel:+212654508769" data-i18n="cta.book">Réserver une table</a>
+        <a class="btn btn--line" href="#putt" data-i18n="cta.putt">Tenter le putt</a>
+      </div>
+    </div>
+    <figure class="hero__fig">
+      <img src="assets/img/terrasse-vue.jpg" alt="Terrasse du restaurant avec vue sur le golf, la lagune et les montagnes" width="1600" height="1200">
+      <figcaption data-i18n="hero.cap">La terrasse, entre la lagune et le golf.</figcaption>
+    </figure>
+  </section>
+
+  <section class="view" id="vue">
+    <h2 class="h2" data-i18n="view.title">Trois vues depuis la même table</h2>
+    <div class="view__strip">
+      <figure><img src="assets/img/lagune.jpg" alt="La lagune de Marchica, calme et bordée de roseaux" loading="lazy" width="1600" height="1200"><figcaption data-i18n="view.1">La lagune</figcaption></figure>
+      <figure><img src="assets/img/golf.jpg" alt="Le parcours de golf, un plan d’eau et les collines" loading="lazy" width="1600" height="1200"><figcaption data-i18n="view.2">Le golf</figcaption></figure>
+      <figure><img src="assets/img/coucher.jpg" alt="Coucher de soleil mauve sur les champs et les montagnes" loading="lazy" width="1600" height="720"><figcaption data-i18n="view.3">Les montagnes</figcaption></figure>
+    </div>
+    <blockquote class="view__q"><p data-i18n="view.q">« Excellent restaurant avec des vues impressionnantes sur la lagune, le golf et les montagnes. La cuisine est délicieuse. »</p><cite>Taher Houass, Google</cite></blockquote>
+  </section>
+
+  <section class="sea" id="mer">
+    <div class="sea__head">
+      <h2 class="h2" data-i18n="sea.title">Le meilleur de la mer, dans la vaisselle bleue</h2>
+      <p class="lead" data-i18n="sea.lead">Le poisson frais attend dans la vitrine. Langouste, crevettes, soles, calamars, servis dans les assiettes bleu et blanc de la maison.</p>
+    </div>
+    <div class="sea__grid">
+      <figure class="sg sg--a"><img src="assets/img/gambas.jpg" alt="Crevettes grillées en couronne sur une assiette bleue et blanche" loading="lazy" width="1600" height="1200"><figcaption data-i18n="sea.1">Crevettes grillées</figcaption></figure>
+      <figure class="sg sg--b"><img src="assets/img/soles.jpg" alt="Deux soles grillées, citron et herbes" loading="lazy" width="1200" height="1600"><figcaption data-i18n="sea.2">Soles</figcaption></figure>
+      <figure class="sg sg--c"><img src="assets/img/langouste-pates.jpg" alt="Langouste grillée et spaghetti" loading="lazy" width="1600" height="1200"><figcaption data-i18n="sea.3">Langouste et spaghetti</figcaption></figure>
+      <figure class="sg sg--d"><img src="assets/img/calamars.jpg" alt="Calamars frits dans une assiette décorée" loading="lazy" width="1200" height="1600"><figcaption data-i18n="sea.4">Calamars</figcaption></figure>
+      <figure class="sg sg--e"><img src="assets/img/vitrine.jpg" alt="Vitrine de poissons frais sur glace" loading="lazy" width="778" height="1600"><figcaption data-i18n="sea.5">La vitrine</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="card" id="carte">
+    <h2 class="h2" data-i18n="card.title">La carte de score</h2>
+    <p class="lead" data-i18n="card.lead">Une partie de la carte, avec ses prix. Le poisson du jour se demande en salle.</p>
+    <div class="score">
+      <div class="score__col">
+        <h3 data-i18n="card.it">Coin italien</h3>
+        <table>
+          <tbody>
+            <tr><th>Spaghetti alla Bolognese</th><td>80</td></tr>
+            <tr><th>Linguine ai Frutti di Mare</th><td>110</td></tr>
+            <tr><th>Risotto di Pollo ai Funghi</th><td>90</td></tr>
+            <tr><th>Risotto alla Pescatora</th><td>110</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="score__col">
+        <h3 data-i18n="card.de">Desserts</h3>
+        <table>
+          <tbody>
+            <tr><th data-i18n="de.1">Flan au touron</th><td>40</td></tr>
+            <tr><th>Tiramisu</th><td>40</td></tr>
+            <tr><th>Panna cotta</th><td>40</td></tr>
+            <tr><th>Crème brûlée</th><td>40</td></tr>
+            <tr><th data-i18n="de.2">Tarte au citron</th><td>40</td></tr>
+            <tr><th data-i18n="de.3">Tarte aux trois chocolats</th><td>40</td></tr>
+            <tr><th data-i18n="de.4">Fruits de saison</th><td>40</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="score__col score__col--note">
+        <h3 data-i18n="card.ra">Ramadan</h3>
+        <p data-i18n="card.ra.t">Menu de rupture du jeûne : soupe de poisson ou harira, puis croquettes, rouleaux et tartelettes au centre de la table.</p>
+        <p class="score__unit" data-i18n="card.unit">Prix en dirhams.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="putt" id="putt">
+    <div class="putt__head">
+      <h2 class="h2" data-i18n="putt.title">Un dernier putt avant le dîner</h2>
+      <p class="lead" data-i18n="putt.lead">Tirez la balle vers l’arrière, visez et relâchez. Le trou, c’est votre table.</p>
+    </div>
+    <div class="green" id="green" role="application" aria-label="Mini putt">
+      <canvas id="greenCanvas"></canvas>
+      <p class="green__score" id="strokes" aria-live="polite"></p>
+      <div class="green__win" id="win" aria-live="polite">
+        <p class="green__msg" id="winMsg"></p>
+        <a class="btn btn--cobalt" href="tel:+212654508769" data-i18n="cta.book2">Réserver ma table</a>
+        <button class="btn btn--line" type="button" id="again" data-i18n="putt.again">Rejouer</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="family" aria-labelledby="famT">
+    <figure class="family__fig"><img src="assets/img/plage.jpg" alt="Plage et palmiers près du restaurant" loading="lazy" width="1333" height="622"></figure>
+    <div class="family__txt">
+      <h2 class="h2" id="famT" data-i18n="fam.title">Pendant que les enfants jouent</h2>
+      <p data-i18n="fam.p">Une aire de jeux juste en face du restaurant, la plage et la promenade tout près. Les parents déjeunent, les enfants courent.</p>
+    </div>
+  </section>
+
+  <section class="reviews" aria-labelledby="revT">
+    <h2 class="h2" id="revT" data-i18n="rev.title">Ce qu’en disent les joueurs, et les autres</h2>
+    <div class="reviews__grid" id="reviews"></div>
+    <p class="reviews__score"><b>4,2</b> <span data-i18n="rev.score">sur Google, 171 avis</span></p>
+  </section>
+
+  <section class="visit" id="venir">
+    <figure class="visit__fig"><img src="assets/img/facade.jpg" alt="Le bâtiment blanc du Restaurant du Golf" loading="lazy" width="1600" height="1200"></figure>
+    <div class="visit__txt">
+      <h2 class="h2" data-i18n="v.title">Atalayoun, route N15</h2>
+      <dl>
+        <div><dt data-i18n="v.h">Horaires</dt><dd data-i18n="v.h.v">Lundi à samedi, 12 h 30 à 23 h<br>Dimanche, 12 h à 23 h</dd></div>
+        <div><dt data-i18n="v.t">Réservations</dt><dd><a href="tel:+212654508769">+212 654 50 87 69</a></dd></div>
+        <div><dt>Instagram</dt><dd><a href="https://www.instagram.com/restaurant.du.golf.nador/" target="_blank" rel="noopener">@restaurant.du.golf.nador</a></dd></div>
+      </dl>
+      <div class="visit__cta">
+        <a class="btn btn--cobalt" href="tel:+212654508769" data-i18n="cta.call">Appeler</a>
+        <a class="btn btn--line" href="https://www.google.com/maps/search/?api=1&query=Restaurant+du+Golf+Atalayoun+Nador" target="_blank" rel="noopener" data-i18n="cta.route">Itinéraire</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot"><p>Norsal · Restaurant du Golf · <span data-i18n="foot">Restaurant méditerranéen</span> · Atalayoun, Nador</p></footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
